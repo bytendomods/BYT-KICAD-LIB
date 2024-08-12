@@ -1,6 +1,8 @@
 # BYT-KICAD-LIB
 Common Kicad symbols and footprints used for Bytendo related projects
 
+***
+
 ## How to add the Footprint library to Kicad
 
 ### Step 1: Open KiCad and the PCB Editor
@@ -27,7 +29,9 @@ Common Kicad symbols and footprints used for Bytendo related projects
 1. Once you've added the library and configured its type, click **OK** or **Apply** to save the changes.
 2. The footprint library should now be available in the footprint selection dialogs within KiCad.
 
-## How to add the Symnbol library to Kicad
+***
+
+## How to add the Symbol library to Kicad
 
 ### Step 1: Open KiCad and the Schematic Editor
 1. Launch KiCad.
