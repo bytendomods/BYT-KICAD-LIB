@@ -672,7 +672,7 @@
 			)
 		)
 		(symbol "PGA2350_1_0"
-			(pin input line
+			(pin power_in line
 				(at -25.4 62.23 0)
 				(length 2.54)
 				(name "GND"
@@ -690,7 +690,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -25.4 -46.99 0)
 				(length 2.54)
 				(name "GND"
@@ -708,7 +708,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 66.04 180)
 				(length 2.54)
 				(name "GPIO1"
@@ -726,7 +726,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -25.4 68.58 0)
 				(length 2.54)
 				(name "VBUS"
@@ -780,7 +780,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -25.4 12.7 0)
 				(length 2.54)
 				(name "USB_DP"
@@ -798,7 +798,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -25.4 10.16 0)
 				(length 2.54)
 				(name "USB_DM"
@@ -834,7 +834,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -60.96 180)
 				(length 2.54)
 				(name "GPIO46/ADC6"
@@ -852,7 +852,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 63.5 180)
 				(length 2.54)
 				(name "GPIO2"
@@ -870,7 +870,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -58.42 180)
 				(length 2.54)
 				(name "GPIO45/ADC5"
@@ -888,7 +888,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -25.4 -62.23 0)
 				(length 2.54)
 				(name "GND"
@@ -906,7 +906,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at -25.4 55.88 0)
 				(length 2.54)
 				(name "3V3"
@@ -924,7 +924,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -25.4 49.53 0)
 				(length 2.54)
 				(name "ADC_VREF"
@@ -960,7 +960,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -25.4 24.13 0)
 				(length 2.54)
 				(name "SWDIO"
@@ -996,7 +996,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -25.4 -58.42 0)
 				(length 2.54)
 				(name "GND"
@@ -1014,7 +1014,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 58.42 180)
 				(length 2.54)
 				(name "GPIO4"
@@ -1032,7 +1032,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -55.88 180)
 				(length 2.54)
 				(name "GPIO44/ADC4"
@@ -1050,7 +1050,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 60.96 180)
 				(length 2.54)
 				(name "GPIO3"
@@ -1068,7 +1068,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -53.34 180)
 				(length 2.54)
 				(name "GPIO43/ADC3"
@@ -1086,7 +1086,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 53.34 180)
 				(length 2.54)
 				(name "GPIO6"
@@ -1104,7 +1104,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -50.8 180)
 				(length 2.54)
 				(name "GPIO42/ADC2"
@@ -1122,7 +1122,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 55.88 180)
 				(length 2.54)
 				(name "GPIO5"
@@ -1140,7 +1140,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -48.26 180)
 				(length 2.54)
 				(name "GPIO41/ADC1"
@@ -1158,7 +1158,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 45.72 180)
 				(length 2.54)
 				(name "GPIO8"
@@ -1176,7 +1176,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -45.72 180)
 				(length 2.54)
 				(name "GPIO40/ADC0"
@@ -1194,7 +1194,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 50.8 180)
 				(length 2.54)
 				(name "GPIO7"
@@ -1212,7 +1212,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -40.64 180)
 				(length 2.54)
 				(name "GPIO39"
@@ -1230,7 +1230,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 40.64 180)
 				(length 2.54)
 				(name "GPIO10"
@@ -1248,7 +1248,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -38.1 180)
 				(length 2.54)
 				(name "GPIO38"
@@ -1266,7 +1266,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 43.18 180)
 				(length 2.54)
 				(name "GPIO9"
@@ -1284,7 +1284,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -35.56 180)
 				(length 2.54)
 				(name "GPIO37"
@@ -1302,7 +1302,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 35.56 180)
 				(length 2.54)
 				(name "GPIO12"
@@ -1320,7 +1320,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -33.02 180)
 				(length 2.54)
 				(name "GPIO36"
@@ -1338,7 +1338,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 38.1 180)
 				(length 2.54)
 				(name "GPIO11"
@@ -1356,7 +1356,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -30.48 180)
 				(length 2.54)
 				(name "GPIO35"
@@ -1374,7 +1374,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 30.48 180)
 				(length 2.54)
 				(name "GPIO14"
@@ -1392,7 +1392,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -27.94 180)
 				(length 2.54)
 				(name "GPIO34"
@@ -1410,7 +1410,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 33.02 180)
 				(length 2.54)
 				(name "GPIO13"
@@ -1428,7 +1428,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -25.4 180)
 				(length 2.54)
 				(name "GPIO33"
@@ -1446,7 +1446,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 22.86 180)
 				(length 2.54)
 				(name "GPIO16"
@@ -1464,7 +1464,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -22.86 180)
 				(length 2.54)
 				(name "GPIO32"
@@ -1482,7 +1482,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 27.94 180)
 				(length 2.54)
 				(name "GPIO15"
@@ -1500,7 +1500,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 15.24 180)
 				(length 2.54)
 				(name "GPIO19"
@@ -1518,7 +1518,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 10.16 180)
 				(length 2.54)
 				(name "GPIO21"
@@ -1536,7 +1536,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 5.08 180)
 				(length 2.54)
 				(name "GPIO23"
@@ -1554,7 +1554,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -2.54 180)
 				(length 2.54)
 				(name "GPIO25"
@@ -1572,7 +1572,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -7.62 180)
 				(length 2.54)
 				(name "GPIO27"
@@ -1590,7 +1590,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -12.7 180)
 				(length 2.54)
 				(name "GPIO29"
@@ -1608,7 +1608,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -17.78 180)
 				(length 2.54)
 				(name "GPIO31"
@@ -1626,7 +1626,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -25.4 -54.61 0)
 				(length 2.54)
 				(name "GND"
@@ -1644,7 +1644,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -25.4 -50.8 0)
 				(length 2.54)
 				(name "GND"
@@ -1662,7 +1662,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 20.32 180)
 				(length 2.54)
 				(name "GPIO17"
@@ -1680,7 +1680,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 17.78 180)
 				(length 2.54)
 				(name "GPIO18"
@@ -1698,7 +1698,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 12.7 180)
 				(length 2.54)
 				(name "GPIO20"
@@ -1716,7 +1716,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 7.62 180)
 				(length 2.54)
 				(name "GPIO22"
@@ -1734,7 +1734,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 0 180)
 				(length 2.54)
 				(name "GPIO24"
@@ -1752,7 +1752,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -5.08 180)
 				(length 2.54)
 				(name "GPIO26"
@@ -1770,7 +1770,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -10.16 180)
 				(length 2.54)
 				(name "GPIO28"
@@ -1788,7 +1788,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 -15.24 180)
 				(length 2.54)
 				(name "GPIO30"
@@ -1843,7 +1843,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 24.13 68.58 180)
 				(length 2.54)
 				(name "GPI0"
