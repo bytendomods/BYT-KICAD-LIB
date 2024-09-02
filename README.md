@@ -1,5 +1,14 @@
 # BYT-KICAD-LIB
-Common Kicad symbols and footprints used for Bytendo related projects
+
+Common Kicad symbols and footprints used for Bytendo related projects.
+
+# Credits
+
+The following symbols and footprints are used in this library. All credit goes to the original authors.
+
+* HDR for RP2350 symbols and footprints [link](https://github.com/HDR/RP2350_KiCad)
+* Natalie the Nerd for AGB symbols [link](https://github.com/nataliethenerd/AGB_ReverseEngineer)
+* Nicolò Carandini for Pico symbol and footprints [link](https://github.com/ncarandini/KiCad-RP-Pico)
 
 ***
 
