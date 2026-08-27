@@ -10,6 +10,15 @@ The following symbols and footprints are used in this library. All credit goes t
 * Natalie the Nerd for AGB symbols [link](https://github.com/nataliethenerd/AGB_ReverseEngineer)
 * Nicolò Carandini for Pico symbol and footprints [link](https://github.com/ncarandini/KiCad-RP-Pico)
 
+# Scripts
+
+`exec(open('scripts/fonts.py').read())`
+
+/Users/absmith/workspace/BYT-KICAD-LIB/scripts/fonts.py
+
+
+exec(open('/Users/absmith/workspace/BYT-KICAD-LIB/scripts/fonts.py').read())
+
 ***
 
 ## How to add the Footprint library to Kicad

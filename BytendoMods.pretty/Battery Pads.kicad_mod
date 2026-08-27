@@ -1,0 +1,144 @@
+(footprint "Battery Pads"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "68706904-28c0-47d4-a111-3d0c1ab20990")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery Pads"
+		(at -4 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82442bfd-dd5d-45a9-bba6-8dd07cf4e909")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "977ea912-469d-4f7f-95e2-d8b4eeb34b1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73d61a0c-c131-4c54-b104-9e79bf6e326d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -3)
+		(end -0.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee96541c-90af-4f15-819d-69e870604163")
+	)
+	(fp_line
+		(start -0.5 -3)
+		(end 0.25 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43e873ae-52f8-41a8-a940-b20d603b50ad")
+	)
+	(fp_line
+		(start -0.5 3)
+		(end 0.25 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3366e216-4ed6-4e00-8b70-fb5f6318fbcf")
+	)
+	(fp_text user "-"
+		(at 3.25 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "264bed2e-9e77-423c-bd84-9d79cce2dffa")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 3.25 2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e63f3b87-1c45-4975-bb65-e03f0cf03ccf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "394ad97a-985a-4f2b-95fb-84b0ed60e60c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.5 1.5)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "b1bc071b-d351-4e1e-aa74-bdbebf9d4b94")
+	)
+	(pad "2" smd roundrect
+		(at 1.5 -1.5)
+		(size 3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "7552e503-c063-4c1e-aee8-7fc5231dbc17")
+	)
+	(embedded_fonts no)
+)

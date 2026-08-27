@@ -1,0 +1,214 @@
+(footprint "CP_Radial_D6.3mm_P2.50mm_90deg"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
+	(tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
+	(property "Reference" "C35"
+		(at 1.85 1.675 180)
+		(layer "F.SilkS")
+		(uuid "8a70014f-f78b-4f86-bc79-198f5243b310")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "220u"
+		(at 1.25 4.4 180)
+		(layer "F.Fab")
+		(uuid "7d744915-b958-4c2e-8110-47734ff257ba")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ed73740-fa5e-4a1a-908d-d815834b8167")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "220u/10V Low ESR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a87516ee-4f7a-4ccf-a0a3-ab102114963b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alt. Manufacturer" "Generic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26250217-5db2-4ddb-94a6-dfe9e21af974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alt. Order ID" "-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea8c7347-7bb0-4d70-b9e4-e290e4bb0bb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Rubycon"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40b40f97-7619-4ce9-bc19-41206238990c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Order ID" "16YXJ220MT16.3X11"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c48047c-b776-4698-b4fa-77e4f61a92a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Variant" "All"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62f70f51-9194-4c71-891a-f803bcd63336")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.315 1.315)
+		(end 0.315 1.315)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34c7bae7-1a76-4014-9f9f-ddcced7e75a6")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 1.63)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c80ea1b2-3844-4157-9916-abf88ed5d8ad")
+	)
+	(fp_rect
+		(start -1.2 -1.2)
+		(end 3.8 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0f912427-72c7-4789-ab77-aaa4ce26f4ec")
+	)
+	(fp_line
+		(start -0.315 1.315)
+		(end 0.315 1.315)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a26da34-d487-49a7-8b4f-e14548c5d6ac")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 1.63)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed28e455-cf31-4add-b414-b03067c9e82c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 0 180)
+		(layer "F.Fab")
+		(uuid "977fa1c3-43b2-4566-9e22-b1c224f68a2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "2101e850-64be-470e-9477-6c9f72ee9b07")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "f113b2c4-9027-415b-9c92-17071a22195c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.wrl"
+		(offset
+			(xyz 0 3 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
